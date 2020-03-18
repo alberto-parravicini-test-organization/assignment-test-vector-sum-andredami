@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test-1",
+      "setup": "clang main.c -o main",
+      "run": "./main 13 12 42 69 3 0 0 3 5",
+      "input": "",
+      "output": "somma del vettore=147",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 69
+    }
+  ]
+}
